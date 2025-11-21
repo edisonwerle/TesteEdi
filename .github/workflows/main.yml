@@ -22,6 +22,7 @@ jobs:
   segundo-job:
     name: "Segundo JOB- atualização Node js"
     runs-on: ubuntu-latest
+    needs: [primero-job]
     steps: 
       - name: "verifica versão"
         run: node --version
