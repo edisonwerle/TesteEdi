@@ -14,3 +14,10 @@ jobs:
         run: |
           echo "Você criou sua primeiro workflow"
           echo "Parabéns!!!"
+      - name: "Scropt python"
+        run: |
+          variavel = "Hellow Python!!!"
+          print(variavel)
+        shell: python
+        
+        
